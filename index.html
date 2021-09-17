@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/todo icon.png" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    TodoList
+                </a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+
+        <div class="left">
+
+            <div class="background">
+                <h2>Create Your Todo Here</h2>
+
+                <div class="hero">
+                    <input id="input" class="form-control me-2" type="search" placeholder="Write your todo"
+                        aria-label="Search">
+                    <button id='addbtn' class="btn btn-primary">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="righthero">
+                <h2>Your Todos</h2>
+                <hr>
+            </div>
+
+            <div class="list">
+                <ul>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <footer>TODO 2021</footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
